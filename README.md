@@ -4,6 +4,27 @@ Bookit is a **FastAPI + SQLModel** application for booking services, managing us
 It provides a clean REST API with JWT authentication.
 
 ---
+STRUCTURE
+bookit/
+│
+├─ app/
+│   ├─ __init__.py
+│   ├─ main.py
+│   ├─ db.py
+│   ├─ models.py
+│   ├─ schemas.py
+│   ├─ services.py
+│   ├─ repositories.py
+│   ├─ core/
+│   │   └─ ...
+│   └─ routers/
+│       ├─ __init__.py
+│       ├─ auth.py
+│       ├─ bookings.py
+│       ├─ reviews.py
+│       ├─ services.py
+│       └─ users.py
+
 
 ## 🚀 Features
 
