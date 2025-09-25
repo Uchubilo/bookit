@@ -86,3 +86,9 @@ Open your browser at:
 http://127.0.0.1:8000/docs
 
 This opens the interactive Swagger UI.
+
+Robust, ACID-compliant, open-source
+Strong support for JSON, constraints, and indexing
+Ideal for relational data (users, bookings, reviews)
+Mature Alembic integration for migrations
+Preferred in production over SQLite/MySQL for reliability and features
